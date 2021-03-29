@@ -1,6 +1,9 @@
 
 ---
 - name: install python2
+  raw: sudo apt-get -y update
+
+- name: install python2
   raw: sudo apt-get -y install python-simplejson
 
 - name: install aptitude
