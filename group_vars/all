@@ -13,13 +13,13 @@ auto_up_disable: false
 #minor = Minor updates are enabled, development, and major updates are disabled
 core_update_level: true
 
-home_dir: "/home/hemanta"
+home_dir: "/home/root"
 projects_root: /var/www
 web_root: /var/www/sites
 repos_root: /var/www/repos
 
-username: hemanta
-groupname: hemanta
+username: root
+groupname: root
 
 apps:
   - www.site.com
