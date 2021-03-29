@@ -1,6 +1,6 @@
 
 ---
-- name: install python2
+- name: install update
   raw: sudo apt-get -y update
 
 - name: install python2
