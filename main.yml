@@ -1,6 +1,6 @@
 ---
 - name: Provision LEMP and related tools
-#  hosts: web
+  hosts: all
   become : true
   gather_facts: yes
 
