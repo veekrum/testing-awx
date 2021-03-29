@@ -1,0 +1,6 @@
+[web]
+192.168.122.63 ansible_connection=ssh ansible_ssh_user=hemanta ansible_ssh_pass= 
+
+
+#[server]
+#HOST  ansible_connection=ssh ansible_ssh_user=USER ansible_ssh_pass=PASSWORD

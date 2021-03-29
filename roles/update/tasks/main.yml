@@ -1,0 +1,33 @@
+
+---
+- name: install python2
+  raw: sudo apt-get -y install python-simplejson
+
+- name: install aptitude
+  raw: sudo apt-get -y install aptitude
+
+- name: update
+  apt: update_cache=yes cache_valid_time=3600
+  #sudo: true
+
+- name: apt-get | ensure core packages are installed
+  apt: pkg={{ item }} state=present
+  #sudo: true
+  with_items:
+    - atool
+    - atop
+    - htop
+    - curl
+    - git
+    - make
+    - mc
+    - software-properties-common
+    - supervisor
+    - tig
+    - tree
+    - vim
+    - unzip
+
+
+- name: Upgrade Server
+  apt: upgrade=full
