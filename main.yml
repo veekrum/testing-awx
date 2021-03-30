@@ -11,4 +11,4 @@
      - php
   #  - mysql
      - initapps
-     - restartsvcs
+  #   - restartsvcs
