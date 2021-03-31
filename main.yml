@@ -7,8 +7,8 @@
   roles:
      - update
      - common
-   #  - nginx
+     - nginx
      - php
   #  - mysql
      - initapps
-  #   - restartsvcs
+     - restartsvcs
